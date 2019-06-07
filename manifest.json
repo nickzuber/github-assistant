@@ -1,6 +1,6 @@
 {
   "name": "Github Assistant",
-  "description": "Add helpful things to Github UI.",
+  "description": "Adds helpful things to Github UI that you wish existed.",
   "version": "0.2",
   "background": {
     "scripts": ["jquery.js", "main.js"]
