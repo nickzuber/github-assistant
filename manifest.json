@@ -1,0 +1,27 @@
+{
+  "name": "Github Extension",
+  "description": "Add helpful things to Github UI.",
+  "version": "0.2",
+  "background": {
+    "scripts": ["jquery.js", "main.js"]
+  },
+  "permissions": [
+    "tabs", "https://github.com/*"
+  ],
+  "icons": {
+    "16": "icons/github-extension-16.png",
+    "48": "icons/github-extension-48.png",
+    "128": "icons/github-extension-128.png"
+  },
+  "browser_action": {
+      "default_title": "Github Extension",
+      "default_icon": "icons/github-extension-16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["jquery.js", "main.js"]
+    }
+  ],
+  "manifest_version": 2
+}
