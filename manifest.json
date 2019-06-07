@@ -1,5 +1,5 @@
 {
-  "name": "Github Extension",
+  "name": "Github Assistant",
   "description": "Add helpful things to Github UI.",
   "version": "0.2",
   "background": {
@@ -14,7 +14,7 @@
     "128": "icons/github-extension-128.png"
   },
   "browser_action": {
-      "default_title": "Github Extension",
+      "default_title": "Github Assistant",
       "default_icon": "icons/github-extension-16.png"
   },
   "content_scripts": [
